@@ -74,7 +74,7 @@ export const ToolConfirmationQueue: React.FC<ToolConfirmationQueueProps> = ({
   // - 2 lines for the Header (text + margin)
   // - 2 lines for Tool Identity (text + margin)
   const availableContentHeight = constrainHeight
-    ? Math.max(maxHeight - (hideToolIdentity ? 0 : 6), 4)
+    ? Math.max(maxHeight - (hideToolIdentity ? 4 : 6), 4)
     : undefined;
 
   const content = (
